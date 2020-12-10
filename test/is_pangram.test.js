@@ -79,13 +79,13 @@ expect(answer).toEqual(true);
   // Write your own test case
 test('returns true for text with each letter multiple times', () => {
  // Arrange
- const text = 'aaabbbbccccddddeeeeffffggggghhhhiiiijjjkkllmmnnooppqqrrssttuuvvwwxxyyzzzz';
+const text = 'aaabbbbccccddddeeeeffffggggghhhhiiiijjjkkllmmnnooppqqrrssttuuvvwwxxyyzzzz';
 
  // Act
- const answer = isPangram(text);
+const answer = isPangram(text);
 
  // Assert
- expect(answer).toBe(true);
+expect(answer).toBe(true);
 
 
 });
